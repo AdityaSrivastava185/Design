@@ -16,7 +16,7 @@ const Navbar = () => {
               BoringDesigner
             </Link>
             <div
-              className={`text-[#CDCDCD] flex md:flex-row md:items-center md:justify-center gap-[20px]`}
+              className={`text-white flex md:flex-row md:items-center md:justify-center gap-[20px]`}
             >
               <div>
                 <Link href={`#`}>Introduction</Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             className={`flex md:flex-row md:items-center md:justify-center md:gap-[20px]`}
           >
             <div
-              className={`text-[#CDCDCD] flex items-center justify-center md:gap-[30px]`}
+              className={`text-white flex items-center justify-center md:gap-[30px]`}
             >
               <Link href={`#`}>Lisence</Link>
               <Link href={`#`}>Join Now</Link>

@@ -5,14 +5,14 @@ import React from "react";
 const HeroPage = () => {
   return (
     <>
-      <div className="mt-10 w-full">
+      <div className="mt-1 pt-10 rw-full ">
         <div className="mb-3 inline-block p-[2px] rounded-full">
           <h1 className="text-white bg-zinc-800 rounded-full px-6 py-2 font-jetbrainmono tracking-tight">
             Reimagine the design and experience the better at
           </h1>
         </div>
-        <div className="inline-block font-lobster tracking-widest mt-7">
-          <h2 className="text-white flex flex-wrap items-center text-[6vw] font-bold md:leading-[80px]">
+        <div className="inline-block font-lobster tracking-widest mt-7 text-center">
+          <h2 className="text-white flex flex-wrap items-center  text-center text-[6vw] md:leading-[100px]">
             Vibrant{" "}
             <span className="mx-3 inline-flex items-center">
               <div className="relative h-[50px] w-[130px] inline-flex">
@@ -54,14 +54,14 @@ const HeroPage = () => {
         </div>
         <div className="flex md:my-5 font-jetbrainmono tracking-tighter">
           <div className="md:max-w-[50vw] flex items-center justify-center">
-            <p className="text-[#CDCDCD] text-xl leading-relaxed">
+            <p className="text-white text-xl leading-relaxed ">
               Elevate your brand with{" "}
               <span className="text-white font-bold">BoringDesigner</span>—a subscription delivering high-quality, custom web designs fast.Enjoy a seamless design experience,and keep your business ahead of the curve.
             </p>
           </div>
         </div>
         <div className="md:mt-10 flex md:gap-[20px] items-center tracking-tighter">
-          <div className="text-sm tracking-widest text-[#CDCDCD]">
+          <div className="text-sm tracking-widest text-white">
             <p>Open Source License</p>
           </div>
           <Link href={`#`}>
@@ -71,7 +71,7 @@ const HeroPage = () => {
     after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:w-full after:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] after:duration-500  
     hover:text-white hover:shadow-[#833ab4] hover:before:h-2/4 hover:after:h-2/4"
             >
-              <span className="relative z-10 tracking-wide">Get Started</span>
+              <span className="relative z-10 tracking-wide text-white">Get Started</span>
               <span className="ml-2 relative z-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const HeroPage = () => {
           </Link>
 
           <div className="text-sm tracking-widest text-[#CDCDCD]">
-            <p>It's free and</p>
+            <p className="text-white">It's free and</p>
             <p className="text-blue-600">open Source</p>
           </div>
         </div>

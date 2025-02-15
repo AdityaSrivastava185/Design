@@ -6,8 +6,10 @@ import HeroPage from "./Hero";
 const Hero = () => {
   return (
     <>
-      <Navbar />
-      <HeroPage/>
+      <div className="">
+        <Navbar />
+        <HeroPage />
+      </div>
     </>
   );
 };
