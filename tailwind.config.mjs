@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily : {
+        lobster : ['Lobster Two'],
+        jetbrainmono : ['JetBrains Mono']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
