@@ -9,26 +9,26 @@ import { Footer } from "./components/Footer/Footer";
 export default function Home() {
   return (
     <>
-      <div className="mb-2 h-screen bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] h-screen bg-cover bg-center bg-no-repeat ">
         <div className="md:px-12 py-5 rounded-[20px] ">
           <Hero />
         </div>
       </div>
-      <div className=" bg-cover bg-center bg-no-repeat bg-fixed ">
+      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
         <Steps />
       </div>
-      <div className=" bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
         <Service />
       </div>
-      <div className="bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
         <Approaches />
       </div>
-      <div className=" h-screen pt-20  bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] h-screen pt-20  bg-cover bg-center bg-no-repeat">
         <Prices/>
       </div>
-      <div className=" h-screen  bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] h-screen  bg-cover bg-center bg-no-repeat ">
       </div>
-      <div className="h-screen">
+      <div className="bg-[url('/20.png')]h-screen">
         <Footer/>
       </div>
     </>
