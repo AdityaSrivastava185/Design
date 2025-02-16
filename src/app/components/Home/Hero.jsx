@@ -6,15 +6,18 @@ const HeroPage = () => {
   return (
     <>
       <div className="mt-1 pt-10 rw-full ">
-        <div className=" inline-block p-[2px] rounded-full border-2 border-white">
-          <h1 className="text-white rounded-full px-6 py-2 font-jetbrainmono tracking-tight">
-            Reimagine the design and experience the better at
+        <div className="flex items-center w-full">
+          <h1 className="text-white text-[4rem] font-extrabold font-lobster tracking-tighter">
+            welcome to
           </h1>
+          <span className="ml-3 inline-flex items-center">
+            <div className="relative h-[40px] w-[66vw] inline-flex rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]"></div>
+          </span>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between mt-6">
-          <div className="inline-block font-lobster tracking-widest mt-7 text-center max-w-[40vw] min-w-[12vw]">
-            <h2 className="text-white flex flex-wrap items-center  text-center md:text-[8vh] leading-tight ]">
-              Vibrant{" "}
+        <div className="flex flex-col w-full font-extrabold">
+          <div className="inline-block font-lobster font-extrabold tracking-widest  max-w-[100vw] w-full">
+            <h2 className="text-white flex flex-wrap  text-[6rem] md:text-[5rem] leading-tight">
+              Boring Space{" "}
               <span className="mx-3 inline-flex items-center">
                 <div className="relative h-[50px] w-[130px] inline-flex">
                   <Image
@@ -26,7 +29,7 @@ const HeroPage = () => {
                   />
                 </div>
               </span>{" "}
-              Visions,Magnetic{" "}
+              where underestimation{" "}
               <span className="mx-3 inline-flex items-center">
                 <div className="relative h-[50px] w-[130px] inline-flex">
                   <Image
@@ -38,11 +41,11 @@ const HeroPage = () => {
                   />
                 </div>
               </span>{" "}
-              Makeovers:All Perfected{" "}
+              unleashes{" "}
               <span className="mx-3 inline-flex items-center">
                 <div className="relative h-[50px] w-[130px] inline-flex">
                   <Image
-                    src={`/2.png`}
+                    src="/2.png"
                     className="rounded-full object-top"
                     alt="one"
                     fill
@@ -50,42 +53,25 @@ const HeroPage = () => {
                   />
                 </div>
               </span>{" "}
-              Pixel
+              brilliance
             </h2>
           </div>
-          <div className="max-w-[40vw] min-w-[40vw] w-full">
-            <div className="flex font-jetbrainmono tracking-tighter">
-              <div className="md:max-w-[50vw] flex items-center justify-center">
-                <p className="text-white text-xl leading-relaxed ">
-                  Elevate your brand with{" "}
-                  <span className="text-white font-bold">BoringDesigner</span>—a
-                  subscription delivering high-quality, custom web designs fast.
-                </p>
-              </div>
-            </div>
-            <div className="md:mt-10 flex md:gap-[20px] items-center tracking-tighter">
-              <div className="text-sm tracking-widest text-white">
-                <p>Open Source License</p>
-              </div>
-              <Link href={`#`}>
-                <p
-                  className="relative overflow-hidden border-2 border-white text-white w-full px-3 py-2 rounded-full inline-flex items-center justify-center mx-auto text-md shadow-2xl transition-all  
-    before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] before:duration-500  
-    after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:w-full after:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] after:duration-500  
-    hover:text-white hover:shadow-[#833ab4] hover:before:h-2/4 hover:after:h-2/4"
-                >
-                  <span className="relative z-10 tracking-wide text-white">
-                    Get Started
-                  </span>
-                </p>
-              </Link>
-
-              <div className="text-sm tracking-widest text-[#CDCDCD]">
-                <p className="text-white">Pause and Cancel your</p>
-                <p className="text-white">subsdcription anytime</p>
-              </div>
-            </div>
-          </div>
+        </div>
+        <hr className="border-t-2 border-white md:mt-[10vh] md:mb-[3vh]  my-6" />
+        <div className="text-white font-jetbrainmono flex flex-col md:flex-row md:items-center md:justify-between">
+          <Link href="/companies">
+            <p className="cursor-pointer hover:underline">
+              For Companies, <br /> Individuals and <br /> Startups
+            </p>
+          </Link>
+          <Link href="/designing-development">
+            <p className="cursor-pointer hover:underline">
+              From Designing <br /> and Developement
+            </p>
+          </Link>
+          <Link href="/start-project">
+            <p className="cursor-pointer hover:underline">Start Project</p>
+          </Link>
         </div>
       </div>
     </>

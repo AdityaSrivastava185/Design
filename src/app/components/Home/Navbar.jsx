@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className={`font-jetbrainmono tracking-tight`}>
+    <div className={`font-jetbrainmono tracking-tight pb-3`}>
       <div className={``}>
         <div
           className={`flex md:flex-row md:items-center md:justify-between md:gap-[18px]`}

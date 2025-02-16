@@ -45,8 +45,8 @@ export const Footer = () => {
           </div>
         </div>
         <hr className="border-t border-white opacity-50 my-7" />
-        <div className="text-white font-jetbrainmono font-extrabold">
-            <p className="text-[7rem]">BORINGDESIGNER. <span className="text-[1rem]">All Rights Reserved 2025</span></p>
+        <div className="text-white font-jetbrainmono">
+            <p className="text-[7rem] font-extrabold">BORINGDESIGNER. <span className="text-[1rem] font-light">All Rights Reserved 2025</span></p>
         </div>
       </div>
     </>
