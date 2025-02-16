@@ -11,7 +11,7 @@ export const Service = () => {
         </div>
         <hr className="border-t border-white opacity-50 mt-7" />
         <div>
-          <p className="text-[3vw]">
+          <p className="text-[2rem] font-lobster py-7">
             We craft visually stunning and strategically designed experiences
             that captivate, engage, and drive meaningful action.Experiences that
             elevate your brand to new heights.
@@ -20,13 +20,13 @@ export const Service = () => {
         <hr className="border-t border-white opacity-50 mt-7" />
         <div className="flex flex-col md:flex-row items-start md:items-start justify-between p-6 space-y-6 md:space-y-0 md:space-x-8 mt-7">
           <div className="w-full md:w-1/3">
-            <p className="text-white text-lg font-semibold">
+            <p className="text-white text-lg font-jetbrainmono tracking-tighter">
               What you can expect:
             </p>
           </div>
 
           {/* Middle Section */}
-          <div className="w-2/5 md:w-1/3">
+          <div className="w-2/5 md:w-1/3 font-jetbrainmono tracking-tighter">
             <p className="text-white text-base leading-relaxed">
               We don’t just design; we craft digital experiences that leave an
               impact. From <span className="underline">Web Design</span> that
@@ -48,7 +48,7 @@ export const Service = () => {
           </div>
 
           {/* Right Section */}
-          <div className="w-full md:w-1/6 text-center md:text-left flex flex-col items-center">
+          <div className="w-full md:w-1/6 text-center md:text-left flex flex-col items-center font-jetbrainmono tracking-tighter">
             <p className="text-white text-lg font-semibold">Socials:</p>
             <p className="text-white hover:underline cursor-pointer">
               LinkedIn

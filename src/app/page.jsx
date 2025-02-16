@@ -20,16 +20,15 @@ export default function Home() {
       <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
         <Service />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
         <Approaches />
       </div>
       <div className="bg-[url('/bg23.jpeg')] h-screen pt-20  bg-cover bg-center bg-no-repeat">
-        <Prices/>
+        <Prices />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] h-screen  bg-cover bg-center bg-no-repeat ">
-      </div>
+      <div className="bg-[url('/bg23.jpeg')] h-screen  bg-cover bg-center bg-no-repeat "></div>
       <div className="bg-[url('/20.png')]h-screen">
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

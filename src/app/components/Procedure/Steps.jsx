@@ -5,7 +5,7 @@ const Steps = () => {
   return (
     <>
       <div className="md:px-12 text-left text-[#ffffff] pt-12 text-[5.6rem] font-meri leading-relaxed tracking-wide max-w-[111rem]">
-        <h2 className="text-[2rem] font-bold">
+        <h2 className="text-[2rem] font-lobster">
           <p>
             BoringDesigner is a cutting-edge design agency for ambitious brands
             that want to stand out, captivate their audience, and transform
@@ -19,21 +19,21 @@ const Steps = () => {
       <div className="flex flex-col md:flex-row items-start md:items-start justify-between p-6 space-y-6 md:space-y-0 md:space-x-8 mt-10">
         {/* Left Section */}
         <div className="w-full md:w-1/3">
-          <p className="text-white text-lg font-semibold">
+          <p className="text-white text-lg font-jetbrainmono tracking-tighter">
             What you can expect:
           </p>
         </div>
 
         {/* Middle Section */}
         <div className="w-2/5 md:w-1/3">
-          <p className="text-white text-base leading-relaxed">
+          <p className="text-white text-base leading-relaxed font-jetbrainmono tracking-tighter">
             We collaborate with brands and innovators who shape the future—those
             redefining digital experiences, crafting seamless user journeys,
             building next-gen tech, and setting new creative standards.
           </p>
           <br />
           <br />
-          <p className="text-white text-base leading-relaxed">
+          <p className="text-white text-base leading-relaxed font-jetbrainmono tracking-tighter">
             We believe that the perfect blend of design, strategy, and a touch
             of passion turns ideas into experiences that are bold, impactful,
             and unforgettable.
@@ -41,7 +41,7 @@ const Steps = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full md:w-1/6 text-center md:text-left flex flex-col items-center">
+        <div className="w-full md:w-1/6 text-center md:text-left flex flex-col items-center font-jetbrainmono tracking-tighter">
           <p className="text-white text-lg font-semibold">Socials:</p>
           <p className="text-white hover:underline cursor-pointer">LinkedIn</p>
           <p className="text-white hover:underline cursor-pointer">X</p>

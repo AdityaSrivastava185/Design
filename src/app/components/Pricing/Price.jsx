@@ -58,11 +58,11 @@ export const Prices = () => {
           <h1 className="text-white text-[4rem] font-extrabold font-jetbrainmono tracking-tighter">
             Pricing
           </h1>
-          <p className="mt-2 text-5xl font-semibold tracking-tight text-balancesm:text-6xl text-white">
+          <p className="mt-2 text-5xl  text-balancesm:text-6xl text-white font-lobster">
             Choose the right plan for you
           </p>
         </div>
-        <p className=" mt-6 max-w-2xl text-lg font-medium text-pretty text-white sm:text-xl/8">
+        <p className=" mt-6 max-w-2xl text-lg font-jetbrainmono tracking-tighter text-pretty text-white sm:text-xl/8">
           Choose an affordable plan that is packed with the best features for
           engaging your audience, creating customer loyalty, and driving sales.
         </p>
