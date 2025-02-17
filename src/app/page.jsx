@@ -9,25 +9,24 @@ import { Footer } from "./components/Footer/Footer";
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/bg23.jpeg')] h-screen bg-cover bg-center bg-no-repeat ">
-        <div className="md:px-12 py-5 rounded-[20px] ">
+      <div className="">
+        <div className="md:px-12 py-5 rounded-[20px] max-h-screen min-h-screen">
           <Hero />
         </div>
       </div>
-      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
+      <div className=" ">
         <Steps />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
+      <div className="">
         <Service />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] bg-cover bg-center bg-no-repeat ">
+      <div className="">
         <Approaches />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] h-screen pt-20  bg-cover bg-center bg-no-repeat">
+      <div className="">
         <Prices />
       </div>
-      <div className="bg-[url('/bg23.jpeg')] h-screen  bg-cover bg-center bg-no-repeat "></div>
-      <div className="bg-[url('/20.png')]h-screen">
+      <div>
         <Footer />
       </div>
     </>
