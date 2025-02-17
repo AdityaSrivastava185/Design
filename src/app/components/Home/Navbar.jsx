@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className={`font-jetbrainmono tracking-tight pb-3`}>
+    <div className={`font-jetbrainmono tracking-tight `}>
       <div className={``}>
         <div
           className={`flex md:flex-row md:items-center md:justify-between md:gap-[18px]`}
@@ -16,7 +16,7 @@ const Navbar = () => {
               BoringDesigner
             </Link>
             <div
-              className={`text-white flex md:flex-row md:items-center md:justify-center gap-[20px]`}
+              className={`text-white md:flex md:flex-row md:items-center md:justify-center gap-[20px] hidden `}
             >
               <div>
                 <Link href={`#`}>Introduction</Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className={`flex md:flex-row md:items-center md:justify-center md:gap-[20px]`}
+            className={` hidden md:flex md:flex-row md:items-center md:justify-center md:gap-[20px]`}
           >
             <div
               className={`text-white flex items-center justify-center md:gap-[30px]`}
