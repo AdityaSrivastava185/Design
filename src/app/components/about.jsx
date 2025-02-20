@@ -2,47 +2,135 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about relative w-full h-auto max-w-[1490px] flex flex-col items-start justify-center flex-nowrap sm:gap-[120px] p-[30px] overflow-hidden">
-      <div className="content relative w-full h-auto flex flex-col items-start justify-center flex-nowrap gap-[70px] overflow-visible">
-        <div className="title relative w-[83%] h-auto flex flex-col items-start justify-center flex-nowrap overflow-visible">
-          <h3 className="relative w-full h-auto uppercase text-white text-[40px] font-bold tracking-tighter leading-10 sm:text-[80px] md:text-[80px]">
-            you think it's boring , think again… :)
-          </h3>
-          <p className="text-white relative w-full h-auto max-w-[300px] font-medium text-left text-[18px] pt-[30px]">Place where the underestimation reveals the beast you never saw coming ….</p>
+    <>
+      <div className="flex flex-col items-center justify-between md:mx-5 md:mt-10 md:flex-row ">
+        <div className="max-w-[40vw]">
+          <h1 className="font-sans font-bold text-white uppercase md:text-[4vw] md:leading-7 md:tracking-tighter lg:leading-[50px]">
+            you think it's boring , think again
+          </h1>
+        </div>
+        <div className="h-auto md:max-w-[25vw]">
+          <div className="flex h-auto w-full md:flex-col md:items-end md:justify-end">
+            <p className="font-semibold text-white uppercase md:text-[16px] md:leading-4 md:tracking-tighter">
+              Place Where underestimation reveals the beast you never saw coming
+            </p>
+          </div>
         </div>
       </div>
-      <hr className="border-[1px] border-white w-full mt-[30px] mb-[10px] "/>
-      <div className="flex flex-row items-center justify-between w-full h-auto relative">
+      <div className="sm:mt-4 sm:my-10 md:mt-10">
+        <hr className="border-1 border-zinc-700" />
+      </div>
+      <div className="about h-auto w-full md:px-[40px]">
+        <div className="flex md:flex-row md:items-center md:justify-between">
+          <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+            01
+          </p>
+          <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+            //approach
+          </p>
+          <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+            five phases
+          </p>
+        </div>
+        <div className="h-auto w-full md:mt-10 md:pl-[36vw]">
+          <div className="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
+            <div className="text-white">01</div>
+            <div className="max-w-[50vw]">
+              <h2 className="text-white">moodboard</h2>
+              <p className="text-zinc-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
+                tempora.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
+            <div className="text-white">01</div>
+            <div className="max-w-[50vw]">
+              <h2 className="text-white">moodboard</h2>
+              <p className="text-zinc-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
+                tempora.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
+            <div className="text-white">01</div>
+            <div className="max-w-[50vw]">
+              <h2 className="text-white">moodboard</h2>
+              <p className="text-zinc-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
+                tempora.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
+            <div className="text-white">01</div>
+            <div className="max-w-[50vw]">
+              <h2 className="text-white">moodboard</h2>
+              <p className="text-zinc-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
+                tempora.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row md:items-start md:justify-around">
+            <div className="text-white">01</div>
+            <div className="max-w-[50vw]">
+              <h2 className="text-white">moodboard</h2>
+              <p className="text-zinc-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
+                tempora.
+              </p>
+            </div>
+          </div>
+        </div>
         <div>
-            <p className="text-white uppercase tracking-tighter">//approach</p>
-        </div>
-        <div>
-            <p className="text-zinc-600 uppercase tracking-tighter">five phases</p>
+          <div className=" sm:mt-4 sm:my-10 md:mt-10">
+            <hr className="border-1 border-zinc-700" />
+          </div>
+          <div className="h-auto w-full">
+            <div className="flex md:flex-row md:items-center md:justify-between">
+              <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+                02
+              </p>
+              <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+                //who am i
+              </p>
+              <p className="text-zinc-400 uppercase md:text-[1.3vw] md:font-semibold md:tracking-tighter">
+                wanna know....
+              </p>
+            </div>
+
+            <div className="flex h-[50vh] w-full items-center justify-center">
+              <div className="flex h-auto md:w-[40vw] lg:w-[60vw] items-center justify-center">
+                <h1 className="text-center text-[7vw] font-bold text-white md:leading-10 md:tracking-tighter lg:leading-[80px] uppercase">
+                  more about boring designer
+                </h1>
+              </div>
+            </div>
+            <div className="flex h-[50vh] w-full items-center justify-center md:mt-[-25vh]">
+              <div className="flex h-auto md:w-[60vw] lg:w-[60vw] items-center justify-center">
+                <h1 className="text-center font-semibold text-white md:leading-4 md:tracking-tighter lg:text-[1.6vw] lg:leading-6">
+                Deception in Simplicity ,  Elevate your brand with BoringDesigner—a subscription service delivering high-quality, custom web designs fast. Enjoy a seamless design experience, all for one simple monthly fee, and keep your business ahead of the curve.
+                </h1>
+              </div>
+            </div>
+            <div className="flex h-[50vh] w-full items-center justify-center md:mt-[-30vh] lg:mt-[-35vh]">
+              <div className="flex h-auto md:w-[60vw] lg:w-[60vw] items-center justify-center">
+                <h1 className="text-center font-semibold text-[#808080] md:leading-4 md:tracking-tighter lg:text-[1.3vw] lg:leading-5">
+                Unleash a creative force that transforms every pixel into a masterpiece, turning your brand's digital presence into an unforgettable experience. Experience design reimagined—where precision meets passion to elevate your identity into a realm of endless possibilities .
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="bottom relative w-full h-auto flex flex-col items-start justify-center flex-nowrap gap-[80px] overflow-hidden">
-        <div className="relative h-auto ">
-            <h1 className="text-white uppercase text-[5vw] font-bold tracking-tighter mt-[30px]">moodboards</h1>
-            <p className="text-zinc-600 tracking-tighter">Every great design starts with a vision. We curate a moodboard filled with colors, typography, and design elements that set the tone for your brand's identity. This helps us align creativity with strategy before we dive into execution.</p>
-        </div>
-        <div className="relative h-auto ">
-            <h1 className="text-white uppercase text-[5vw] font-bold tracking-tighter ">Wireframing and Prototype</h1>
-            <p className="text-zinc-600 tracking-tighter">Once the vision is clear, we sketch out the blueprint. Our wireframing process ensures a seamless user journey, while Figma prototyping brings your ideas to life with interactive previews.</p>
-        </div>
-        <div className="relative h-auto ">
-            <h1 className="text-white uppercase text-[5vw] font-bold tracking-tighter ">deaign and development</h1>
-            <p className="text-zinc-600 tracking-tighter">From web design to frontend development, we merge aesthetics with functionality. Whether it's a sleek landing page or a fully responsive interface, we craft experiences that are both visually stunning and highly intuitive.</p>
-        </div>
-        <div className="relative h-auto ">
-            <h1 className="text-white uppercase text-[5vw] font-bold tracking-tighter">reviews and adjustments</h1>
-            <p className="text-zinc-600 tracking-tighter">To ensure alignment , we conclude each phase by presenting our work to you , gathering your suggestions and reviews and implementing any neccessary changes</p>
-        </div>
-        <div className="relative h-auto ">
-            <h1 className="text-white uppercase text-[5vw] font-bold tracking-tighter">delivery</h1>
-            <p className="text-zinc-600 tracking-tighter">We refine, test, and perfect every pixel. Our meticulous attention to detail ensures that your brand's digital presence is impactful, immersive, and unforgettable.</p>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

@@ -14,6 +14,7 @@ const Hero = () => {
       <div className="image relative w-full h-auto flex flex-col items-center justify-center flex-nowrapgap-[24px] py-[20px] overflow-visible z-[1]">
         <Image src={`/hero-image.webp`} height={200} width={200} alt="hero image" className="relative w-[366px] h-[493px] overflow-hidden rounded-[53px] object-cover object-top sm:w-[759px] sm:h-[423px] md:w-[1153px] md:h-[882px] lg:w-[1372px] lg:h-[882px]" />
       </div>
+      
     </div>
   );
 };
