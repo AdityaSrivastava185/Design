@@ -2,90 +2,35 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="h-screen">
-      <div class="sm:mt-4 sm:mb-1 md:px-[2vw]">
-        <hr class="border-1 border-zinc-700" />
+    <div className="min-h-screen mt-[50vh] md:mt-[0vh] md:mb-[20vh] px-[30px]">
+      <div className=" mt-[4vh] sm:mt-4 sm:mb-1 px-[4vw] md:px-[2vw]">
+        <hr className="border border-zinc-700" />
       </div>
-      <div class="flex md:flex-row md:items-center md:justify-between">
-        <p class="text-zinc-400 uppercase md:text-[1.8vw] md:font-semibold md:tracking-tighter">
-          04
-        </p>
-        <p class="text-zinc-400 uppercase md:text-[1.8vw] md:font-semibold md:tracking-tighter">
-          //pricing
-        </p>
-        <p class="text-zinc-400 uppercase md:text-[1.8vw] md:font-semibold md:tracking-tighter">
-          deliver
-        </p>
-      </div>
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between md:gap-[13vw]">
+      <div className="services md:px-[2vw]">
+        <div className="flex flex-row items-center justify-between gap-2 text-center">
+          <p className="text-white uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
+            05
+          </p>
+          <p className="text-white uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
+            //Pricing
+          </p>
+          <p className="text-zinc-400 uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
+            best plans
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between md:gap-[13vw]">
           <div>
-            <p class="font-semibold text-white md:text-[4vw] md:tracking-tighter uppercase">
-              tech stack
+            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw]">
+              Pricing
             </p>
           </div>
-          <div>
-            <p class="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh]">
-              Lorem ipsum dolor 
+          <div className="w-full flex justify-center lg:justify-start lg:w-[20vw]">
+            <p className="md:font-semibold text-white text-[8vw] sm:text-[4vw] md:text-[2vw] md:leading-[3.5] md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw] uppercase text-center lg:text-left leading-9 font-bold tracking-tighter mt-[7vh] md:mt-[0vh]">
+              big or small, <br /> i have a plan
             </p>
           </div>
         </div>
-        <div class="h-auto w-full md:mt-10 md:pl-[36vw]">
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">moodboard</h2>
-              <p class="text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
-                tempora.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">moodboard</h2>
-              <p class="text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
-                tempora.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">moodboard</h2>
-              <p class="text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
-                tempora.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">moodboard</h2>
-              <p class="text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
-                tempora.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">moodboard</h2>
-              <p class="text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                quo itaque nostrum nemo, ullam incidunt ex sed perferendis totam
-                tempora.
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
     </div>
   );
 };

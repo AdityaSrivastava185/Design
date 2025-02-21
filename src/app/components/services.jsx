@@ -2,76 +2,78 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="h-screen lg:px-[30px]">
-      <div class="sm:mt-4 sm:mb-1 md:px-[2vw]">
-        <hr class="border-1 border-zinc-700" />
+    <div className="h-screen px-[30px] lg:px-[30px]">
+      <div className=" sm:mt-4 sm:mb-1 px-[4vw] md:px-[2vw]">
+        <hr className="border border-zinc-700" />
       </div>
-      <div class="services">
-        <div class="flex md:flex-row md:items-center md:justify-between">
-          <p class="text-white uppercase md:text-[1.8vw] lg:text-[1.3vw] md:font-semibold md:tracking-tighter">
+      <div className="services">
+        <div className="flex flex-row items-center justify-between gap-2 text-center">
+          <p className="text-white uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
             03
           </p>
-          <p class="text-white uppercase md:text-[1.8vw] lg:text-[1.3vw] md:font-semibold md:tracking-tighter">
+          <p className="text-white uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
             //services
           </p>
-          <p class="text-zinc-400 uppercase md:text-[1.8vw] lg:text-[1.3vw] md:font-semibold md:tracking-tighter">
+          <p className="text-zinc-400 uppercase text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
             fast delivery
           </p>
         </div>
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between md:gap-[13vw]">
-          <div>
-            <p class="font-semibold text-white md:text-[7vw] md:tracking-tighter">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between md:gap-[13vw]">
+          <div className="my-[5vh] sm:my-[0vh]">
+            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw]">
               services
             </p>
           </div>
-          <div className="lg:w-[20vw]">
-            <p class="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw]">
+          <div className="lg:w-[20vw] mb-[5vh] ">
+            <p className="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw] text-[3.7vw]">
               We design compelling, high-impact experiences , transform ideas
               into visuals .
             </p>
           </div>
         </div>
-        <div class="h-auto w-full md:mt-10 md:pl-[36vw]">
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">Open Source </h2>
-              <p class="text-zinc-400">
-                Making your website completely open source and maintaining it on
-                github
-              </p>
+        <div className="h-auto w-full md:mt-10 md:pl-[36vw]">
+          {[
+            {
+              number: "01",
+              title: "Open Source",
+              desc: "Making your website completely open source and maintaining it on GitHub.",
+            },
+            {
+              number: "02",
+              title: "Complete Website Design",
+              desc: "Effortless Execution in Figma and Framer, Rapid Results.",
+            },
+            {
+              number: "03",
+              title: "UI/UX Design",
+              desc: "Interaction Design, Quick Delivery.",
+            },
+            {
+              number: "04",
+              title: "Wireframing",
+              desc: "Complete Wireframes of web designs.",
+            },
+            {
+              number: "05",
+              title: "Prototyping of Design",
+              desc: "Full Website Development.",
+            },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-row items-start justify-between gap-4 md:gap-10 md:mb-7 mb-[8vh]"
+            >
+              <div className="text-white text-md font-bold min-w-[10%]">
+                {item.number}
+              </div>
+              <div className="flex-1 max-w-[80%] md:max-w-[45vw]">
+                <h2 className="text-white text-lg font-bold">{item.title}</h2>
+                <p className="text-zinc-400 text-md tracking-wide font-semibold leading-5">
+                  {item.desc}
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">Complete Website Design</h2>
-              <p class="text-zinc-400">
-                Effortless Execution in Figma and Framer , Rapid Results Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae vel facilis sunt suscipit voluptatem error amet quod mollitia quisquam labore provident cupiditate corporis delectus in, quam tenetur, iste, voluptate modi sequi voluptatum odit optio vero! Facilis incidunt laboriosam beatae?
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">UI/UX Design</h2>
-              <p class="text-zinc-400">Interaction Design , Quick Delivery</p>
-            </div>
-          </div>
-          <div class="flex flex-col md:mb-7 md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">Wireframing</h2>
-              <p class="text-zinc-400">Complete Wireframes of web designs</p>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row md:items-start md:justify-around">
-            <div class="text-white">01</div>
-            <div class="max-w-[50vw]">
-              <h2 class="text-white">Prototyping of Design</h2>
-              <p class="text-zinc-400">Full Website Development</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
