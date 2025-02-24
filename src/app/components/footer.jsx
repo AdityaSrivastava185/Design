@@ -18,17 +18,17 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row mt-20 md:items-center md:justify-between md:gap-[13vw]">
+      <div className="flex flex-col md:flex-row mt-20 md:items-center md:justify-between md:gap-[13vw] lg:px-[30px]">
         <div className="mb-[3vh] sm:my-[0vh]">
           <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
-            Linkedin<span>&#8599;</span>
+            Linkedin
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row mt-[-9vh] md:items-center md:justify-between md:gap-[13vw]">
+      <div className="flex flex-col md:flex-row mt-[-9vh] md:items-center md:justify-between md:gap-[13vw] lg:px-[30px]">
         <div className=" mb-10 sm:my-[0vh]">
           <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
-            X-(Twitter)<span>&#8599;</span>
+           twitter
           </p>
         </div>
       </div>

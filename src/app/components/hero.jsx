@@ -13,13 +13,13 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <div className="image relative w-full h-auto flex flex-col items-center justify-center flex-nowrap gap-[24px] overflow-visible z-[1]">
+        <div className="image relative w-full h-auto flex flex-col items-center justify-center flex-nowrap gap-[24px] overflow-visible z-[1] px-[30px] sm:px-0">
           <Image
             src={`/hero-bg.webp`}
             height={700}
             width={700}
             alt="hero image"
-            className="relative w-[200px] h-[393px] overflow-hidden rounded-[53px] object-cover object-top sm:w-[759px] sm:h-[423px] md:w-[1153px] md:h-[882px] lg:w-[1372px] lg:h-[882px]"
+            className="relative w-full h-auto overflow-hidden rounded-[53px] object-cover object-top sm:w-[759px] sm:h-[423px] md:w-[1153px] md:h-[882px] lg:w-[1372px] lg:h-[882px]"
           />
         </div>
       </div>

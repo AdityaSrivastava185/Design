@@ -60,7 +60,7 @@ const Experience = () => {
                 <p className="text-white text-[4.5vw] sm:text-[3vw] md:text-[1.5vw] font-semibold mb-6 font-jetbrainmono tracking-tighter">
                   {experience.role}
                 </p>
-                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold  tracking-tighter font-jetbrainmono leading-4">
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold  tracking-tighter  leading-4 lg:text-xl">
                   {experience.desc}
                 </p>
               </div>

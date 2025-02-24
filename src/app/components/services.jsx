@@ -70,7 +70,7 @@ const Services = () => {
                 <h2 className="text-white text-2xl font-bold font-jetbrainmono tracking-tighter pb-2 sm:pb-0 leading-6 lg:pb-8">
                   {item.title}
                 </h2>
-                <p className="text-zinc-400 text-md md:tracking-wide font-semibold md:leading-5 font-jetbrainmono tracking-tighter leading-4">
+                <p className="text-zinc-400 text-md md:tracking-wide font-semibold md:leading-5  tracking-tighter leading-4 lg:text-xl">
                   {item.desc}
                 </p>
               </div>

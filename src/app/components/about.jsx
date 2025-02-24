@@ -75,7 +75,7 @@ const About = () => {
                 <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[9vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono lg:pb-8">
                   {phase.title}
                 </h2>
-                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter font-jetbrainmono">
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter lg:text-xl">
                   {phase.desc}
                 </p>
               </div>
@@ -120,7 +120,7 @@ const About = () => {
 
           <div className="flex h-auto min-h-[30vh] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-20vh] md:mt-[-30vh] lg:mt-[-35vh] mt-[-8vh] mb-20 ">
             <div className="flex h-auto w-[85vw] sm:w-[70vw] md:w-[60vw] lg:w-[60vw] items-center justify-center">
-              <h1 className="text-center text-[4vw] sm:text-[3vw] md:text-[1.3vw] font-semibold text-[#808080]  tracking-tighter leading-4 font-jetbrainmono">
+              <h1 className="text-center text-[4vw] sm:text-[3vw] md:text-[1.3vw] font-semibold text-[#808080]  tracking-tighter leading-4 lg:text-xl">
                 Unleash a creative force that transforms every pixel into a
                 masterpiece,turning your brand's digital presence into an
                 unforgettable experience.Experience design reimagined—where
