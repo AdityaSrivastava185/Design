@@ -48,7 +48,7 @@ const Experience = () => {
           ].map((experience, index) => (
             <div
               key={index}
-              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around "
+              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around lg:pb-10"
             >
               <div className="hidden sm:block text-white text-[4vw] sm:text-[4vw] md:text-[2vw] font-bold">
                 {experience.number}

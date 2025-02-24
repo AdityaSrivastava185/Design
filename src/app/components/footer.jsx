@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="min-h-screen flex flex-col justify-between px-4 md:px-[2vw]">
+    <div className="min-h-screen flex flex-col justify-between px-4 md:px-[2vw] lg:mt-7">
       <div className="sm:mt-4 sm:mb-1 mt-[100px] md:mt-[0px]">
         <hr className="border-1 border-zinc-700" />
       </div>

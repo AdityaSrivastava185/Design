@@ -26,8 +26,8 @@ const Services = () => {
           </div>
           <div className="lg:w-[20vw] mb-[5vh] ">
             <p className="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw] text-[4.7vw] font-jetbrainmono tracking-tighter leading-5">
-              We design compelling,high-impact experiences,transform ideas
-              into visuals.
+              We design compelling,high-impact experiences,transform ideas into
+              visuals.
             </p>
           </div>
         </div>
@@ -61,13 +61,13 @@ const Services = () => {
           ].map((item, index) => (
             <div
               key={index}
-              className="flex flex-row items-start justify-between gap-4 md:gap-10 md:mb-7 mb-[6vh]"
+              className="flex flex-row items-start justify-between gap-4 md:gap-10 md:mb-7 mb-[6vh] lg:pb-8"
             >
               <div className="text-white text-md font-bold min-w-[10%] font-jetbrainmono">
                 {item.number}
               </div>
               <div className="flex-1 max-w-[80%] md:max-w-[45vw] pb-10 border-b border-zinc-900">
-                <h2 className="text-white text-2xl font-bold font-jetbrainmono tracking-tighter pb-2 sm:pb-0 leading-6">
+                <h2 className="text-white text-2xl font-bold font-jetbrainmono tracking-tighter pb-2 sm:pb-0 leading-6 lg:pb-8">
                   {item.title}
                 </h2>
                 <p className="text-zinc-400 text-md md:tracking-wide font-semibold md:leading-5 font-jetbrainmono tracking-tighter leading-4">
