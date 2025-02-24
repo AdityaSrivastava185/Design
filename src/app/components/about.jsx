@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="h-auto max-w-[50vw] mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
           <div className="flex h-auto w-full flex-col items-end justify-end">
-            <p className="font-semibold text-white uppercase text-[3vw] sm:text-[3vw] md:text-[16px] leading-4 tracking-tighter font-jetbrainmono">
+            <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] leading-5 tracking-tighter font-jetbrainmono">
               Place where underestimation reveals the beast you never saw coming
             </p>
           </div>
@@ -72,10 +72,10 @@ const About = () => {
                 {phase.number}
               </div>
               <div className="max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] mb-[50px] md:mb-[0px]">
-                <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[5vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-6 md:leading-none font-jetbrainmono">
+                <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[9vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono">
                   {phase.title}
                 </h2>
-                <p className="text-zinc-500 text-[3.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter ">
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter font-jetbrainmono">
                   {phase.desc}
                 </p>
               </div>
@@ -102,15 +102,15 @@ const About = () => {
 
           <div className="flex h-auto min-h-[30vh] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center">
             <div className="flex h-auto w-[40vw] sm:w-[70vw] md:w-[40vw] lg:w-[60vw] items-center justify-center">
-              <h1 className="text-center text-[7vw] sm:text-[6vw] md:text-[3vw] font-extrabold text-white leading-[0.9] tracking-tighter uppercase font-jetbrainmono">
+              <h1 className="text-center text-[9vw] sm:text-[6vw] md:text-[3vw] font-extrabold text-white leading-[0.9] tracking-tighter uppercase font-jetbrainmono">
                 More About Boring Designer
               </h1>
             </div>
           </div>
 
-          <div className="flex h-auto min-h-[30vh] mt-7 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh]">
+          <div className="flex h-auto min-h-[30vh] mt-1 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh]">
             <div className="flex h-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[60vw] items-center justify-center">
-              <h1 className="text-center text-[4vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono">
+              <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono">
                 I'M AN INNOVATIVE DESIGNER AND DIGITAL ARTIST INDIA.MY PASSION
                 FOR MINIMALIST AESTHETICS,ELEGANT TYPOGRAPHY,AND INTUITIVE
                 DESIGN SHINES THROUGH IN MY WORK.

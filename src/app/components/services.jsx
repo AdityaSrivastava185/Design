@@ -25,13 +25,13 @@ const Services = () => {
             </p>
           </div>
           <div className="lg:w-[20vw] mb-[5vh] ">
-            <p className="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw] text-[3.7vw] font-jetbrainmono tracking-tighter leading-5">
-              We design compelling, high-impact experiences , transform ideas
-              into visuals .
+            <p className="font-semibold text-white md:text-[2vw] md:leading-3.5 md:tracking-tighter md:pt-[10vh] lg:leading-6 lg:text-[1.5vw] text-[4.7vw] font-jetbrainmono tracking-tighter leading-5">
+              We design compelling,high-impact experiences,transform ideas
+              into visuals.
             </p>
           </div>
         </div>
-        <div className="h-auto w-full md:mt-10 md:pl-[36vw] mt-14">
+        <div className="h-auto w-full md:mt-10 md:pl-[36vw] mt-11">
           {[
             {
               number: "01",
@@ -67,7 +67,7 @@ const Services = () => {
                 {item.number}
               </div>
               <div className="flex-1 max-w-[80%] md:max-w-[45vw] pb-10 border-b border-zinc-900">
-                <h2 className="text-white text-lg font-bold font-jetbrainmono tracking-tighter leading-6">
+                <h2 className="text-white text-2xl font-bold font-jetbrainmono tracking-tighter pb-2 sm:pb-0 leading-6">
                   {item.title}
                 </h2>
                 <p className="text-zinc-400 text-md md:tracking-wide font-semibold md:leading-5 font-jetbrainmono tracking-tighter leading-4">

@@ -79,13 +79,13 @@ const TechStack = () => {
 
                 {/* Content Section */}
                 <div className="w-full md:max-w-[50vw] md:min-w-[50vw] mt-[10vh]">
-                  <h2 className="text-white text-[6vw] sm:text-[5vw] md:text-[2vw] font-bold leading-[1px] md:leading-none mb-[20px] md:mb-[0px] font-jetbrainmono tracking-tighter">
+                  <h2 className="text-white text-[7vw] sm:text-[5vw] md:text-[2vw] font-bold leading-[1px] md:leading-none mb-[20px] md:mb-[0px] font-jetbrainmono tracking-tighter">
                     {item.title}
                   </h2>
-                  <p className="text-white text-[3.6vw] sm:text-[3vw] md:text-[1.5vw] font-semibold tracking-tighter md:tracking-none font-jetbrainmono">
+                  <p className="text-white text-[4.6vw] sm:text-[3vw] md:text-[1.5vw] font-semibold tracking-tighter md:tracking-none font-jetbrainmono">
                     {item.subtitle}
                   </p>
-                  <p className="text-zinc-500 text-[3vw] sm:text-[2.5vw] md:text-[1vw] font-jetbrainmono tracking-tighter font-semibold pt-5">
+                  <p className="text-zinc-500 text-[4vw] sm:text-[2.5vw] md:text-[1vw] font-jetbrainmono tracking-tighter font-semibold pt-5">
                     {item.description}
                   </p>
                 </div>
