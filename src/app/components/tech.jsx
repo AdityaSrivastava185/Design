@@ -35,43 +35,53 @@ const TechStack = () => {
           {[
             {
               number: "01",
-              title: "Open Source",
-              desc: "Making your website completely open source and maintaining it on GitHub.",
+              title: "NextJS/ReactJS",
+              desc: "Frontend development code completely written in Next.js and React.js using Tailwind CSS, ensuring highly responsive, efficient, and scalable web applications.",
             },
             {
               number: "02",
-              title: "Complete Website Design",
-              desc: "Effortless Execution in Figma and Framer, Rapid Results.",
+              title: "Git and GitHub",
+              desc: "Maintaining code versions and making it open-source. GitHub provides a cloud-based platform where you can store, share, and collaborate on code seamlessly.",
             },
             {
               number: "03",
-              title: "UI/UX Design",
-              desc: "Interaction Design, Quick Delivery.",
+              title: "Framer",
+              desc: "A powerful web design platform that turns ideas into interactive, production-ready websites. Framer enables designers and developers to create visually stunning sites.",
             },
             {
               number: "04",
-              title: "Wireframing",
-              desc: "Complete Wireframes of web designs.",
+              title: "Figma",
+              desc: "A collaborative design tool that allows teams to create, prototype, and iterate designs with precision. Features include real-time collaboration, vector editing, and design systems.",
             },
             {
               number: "05",
-              title: "Prototyping of Design",
-              desc: "Full Website Development.",
+              title: "ShadCN UI",
+              desc: "A set of beautifully designed, accessible UI components built for modern web applications. Fully open-source and works seamlessly with popular frameworks.",
             },
-          ].map((item, index) => (
+            {
+              number: "06",
+              title: "WebStorm",
+              desc: "A robust JavaScript and TypeScript IDE by JetBrains. It provides advanced coding assistance, debugging, and seamless integration with modern web technologies.",
+            },
+            {
+              number: "07",
+              title: "Visual Studio Code",
+              desc: "A powerful IDE by Microsoft, redefining AI-powered coding with GitHub Copilot for modern web and cloud application development.",
+            },
+          ].map((phase, index) => (
             <div
               key={index}
-              className="flex flex-row items-start justify-between gap-4 md:gap-10 md:mb-7 mb-[6vh] lg:pb-8"
+              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around"
             >
-              <div className="text-white text-md font-bold min-w-[10%] font-jetbrainmono">
-                {item.number}
+              <div className="hidden sm:block text-white text-[4vw] sm:text-[4vw] md:text-[2vw] font-bold ">
+                {phase.number}
               </div>
-              <div className="flex-1 max-w-[80%] md:max-w-[45vw] pb-10 border-b border-zinc-900">
-                <h2 className="text-white text-2xl font-bold font-jetbrainmono tracking-tighter pb-2 sm:pb-0 leading-6 lg:pb-8">
-                  {item.title}
+              <div className="max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] mb-[50px] md:mb-[0px] lg:pb-10">
+                <h2 className="text-white max-w-[40vw] md:max-w-[70vw] text-[9vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono lg:pb-8">
+                  {phase.title}
                 </h2>
-                <p className="text-zinc-400 text-md md:tracking-wide font-semibold md:leading-5  tracking-tighter leading-4 lg:text-xl">
-                  {item.desc}
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter lg:text-xl">
+                  {phase.desc}
                 </p>
               </div>
             </div>

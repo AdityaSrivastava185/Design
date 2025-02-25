@@ -25,12 +25,12 @@ const Pricing = () => {
             </p>
           </div>
           <div className="h-auto max-w-[50vw] mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
-          <div className="flex h-auto w-full flex-col items-end justify-end">
-            <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono">
-              big or small,we have plans for everyone
-            </p>
+            <div className="flex h-auto w-full flex-col items-end justify-end">
+              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono">
+                big or small,we have plans for everyone
+              </p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
