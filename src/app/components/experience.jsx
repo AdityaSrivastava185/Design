@@ -54,7 +54,7 @@ const Experience = () => {
                 {experience.number}
               </div>
               <div className="max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] mb-[50px] md:mb-0">
-                <h2 className="text-white text-[7vw] sm:text-[4vw] md:text-[2vw] font-bold  md:mb-0 font-jetbrainmono tracking-tighter uppercase">
+                <h2 className="text-white  text-[6vw] sm:text-[4vw] md:text-[2vw] font-bold  md:mb-0 font-jetbrainmono tracking-tighter uppercase">
                   {experience.title}
                 </h2>
                 <p className="text-white text-[4.5vw] sm:text-[3vw] md:text-[1.5vw] font-semibold mb-6 font-jetbrainmono tracking-tighter">
