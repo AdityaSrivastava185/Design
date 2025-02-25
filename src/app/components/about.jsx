@@ -72,10 +72,10 @@ const About = () => {
                 {phase.number}
               </div>
               <div className="max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] mb-[50px] md:mb-[0px] lg:pb-10">
-                <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[9vw] sm:text-[4vw] md:text-[2vw] mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono lg:pb-8">
+                <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[9vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono lg:pb-8">
                   {phase.title}
                 </h2>
-                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] font-semibold leading-5 tracking-tighter lg:text-xl">
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] leading-5 tracking-tighter lg:text-xl">
                   {phase.desc}
                 </p>
               </div>
