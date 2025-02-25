@@ -9,11 +9,11 @@ import { useGSAP } from "@gsap/react";
 
 const menuOptions = [
   { path: "#", label: "Home" },
-  { path: "#", label: "About" },
-  { path: "#", label: "Approach" },
-  { path: "#", label: "Experience" },
-  { path: "#", label: "Services" },
-  { path: "#", label: "Pricing" },
+  { path: "#about", label: "About" },
+  { path: "#approach", label: "Approach" },
+  { path: "#experience", label: "Experience" },
+  { path: "#services", label: "Services" },
+  { path: "#pricing", label: "Pricing" },
 ];
 
 const Menu = () => {
@@ -65,12 +65,12 @@ const Menu = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className="menu-container text-white mb-[12vh] md:mb-[10vh]" ref={container}>
-      <div className="menu-bar">
-        <div className="menu-logo text-white">
-          <Link href="/">BoringDesigner</Link>
+    <div className="menu-container text-white mb-[12vh] md:mb-[17vh] relative" ref={container}>
+      <div className="menu-bar fixed bg-black ">
+        <div className="menu-logo text-white font-jetbrainmono">
+          <Link href="/">BORINGDESIGNER/</Link>
         </div>
-        <div className="menu-open" onClick={toggleMenu}>
+        <div className="menu-open font-jetbrainmono " onClick={toggleMenu}>
           <p className="text-white">Menu</p>
         </div>
       </div>
@@ -79,7 +79,7 @@ const Menu = () => {
           {/* <div className="menu-logo">
             <Link href="/">BoringDesigner</Link>
           </div> */}
-          <div className="menu-close" onClick={toggleMenu}>
+          <div className="menu-close font-jetbrainmono" onClick={toggleMenu}>
             <p>Close</p>
           </div>
         </div>
@@ -90,17 +90,17 @@ const Menu = () => {
           <div className="menu-links">
             {menuOptions.map((link, index) => (
               <div className="menu-link-item" key={index}>
-                <div className="menu-link-item-holder" onClick={toggleMenu}>
-                  <Link href={link.path} className="menu-link">
+                <div className="menu-link-item-holder " onClick={toggleMenu}>
+                  <Link href={link.path} className="menu-link tracking-tighter">
                     {link.label}
                   </Link>
                 </div>
               </div>
             ))}
           </div>
-          <div className="menu-info md:mt-[12vh]">
+          <div className="menu-info md:mt-[12vh] font-jetbrainmono mt-[5vh]">
             <div className="menu-info-col">
-              <a href="#">X</a>
+              <a href="#">Twitter(X)</a>
               <a href="#">LinkedIn</a>
             </div>
           </div>

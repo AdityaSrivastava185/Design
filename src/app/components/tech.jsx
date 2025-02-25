@@ -20,7 +20,7 @@ const TechStack = () => {
         </div>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between md:gap-[13vw]">
           <div className="mb-[1vh] mt-[10vh] sm:my-[0vh] lg:mt-10">
-            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase lg:[word-spacing:-2.5rem] leading-[100px]">
+            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase lg:[word-spacing:-2.5rem] md:leading-[100px] leading-[54px] appearonscroll">
               tools and stack
             </p>
           </div>
@@ -71,7 +71,7 @@ const TechStack = () => {
           ].map((phase, index) => (
             <div
               key={index}
-              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around"
+              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around appearonscroll"
             >
               <div className="hidden sm:block text-white text-[4vw] sm:text-[4vw] md:text-[2vw] font-bold ">
                 {phase.number}

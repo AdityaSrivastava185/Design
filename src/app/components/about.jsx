@@ -3,19 +3,22 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="flex flex-col md:items-center md:justify-between mx-7 md:mx-5 md:mt-10 md:flex-row ">
+      <div
+        id="about"
+        className="flex flex-col md:items-center md:justify-between mx-7 md:mx-5 md:mt-10 md:flex-row "
+      >
         <div
           className=" mb-9 md:mb-0
         w-full sm:max-w-[60vw] md:max-w-[40vw] mt-[6vh] md:mt-0"
         >
-          <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[5vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] tracking-tighter leading-8 font-jetbrainmono font-extrabold">
+          <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[5vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll">
             you think it's boring,think again...:)
           </h1>
         </div>
 
         <div className="h-auto max-w-[50vw] mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
           <div className="flex h-auto w-full flex-col items-end justify-end">
-            <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono">
+            <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono appearonscroll">
               Place where underestimation reveals the beast you never saw coming
             </p>
           </div>
@@ -66,7 +69,7 @@ const About = () => {
           ].map((phase, index) => (
             <div
               key={index}
-              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around"
+              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around appearonscroll"
             >
               <div className="hidden sm:block text-white text-[4vw] sm:text-[4vw] md:text-[2vw] font-bold ">
                 {phase.number}
@@ -75,7 +78,7 @@ const About = () => {
                 <h2 className="text-white max-w-[40vw] md:max-w-[0vw] text-[6vw] sm:text-[4vw] md:text-[2vw] font-bold mb-[10px] md:mb-[0px] uppercase tracking-tighter leading-8 md:leading-none font-jetbrainmono lg:pb-8">
                   {phase.title}
                 </h2>
-                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] leading-5 tracking-tighter lg:text-xl">
+                <p className="text-zinc-500 text-[4.5vw] sm:text-[3vw] md:text-[1vw] leading-5 tracking-tighter lg:text-xl ">
                   {phase.desc}
                 </p>
               </div>
@@ -102,7 +105,7 @@ const About = () => {
 
           <div className="flex h-auto min-h-[30vh] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center">
             <div className="flex h-auto w-[40vw] sm:w-[70vw] md:w-[40vw] lg:w-[90vw] items-center justify-center">
-              <h1 className="text-center text-[9vw] sm:text-[6vw] md:text-[3vw] font-extrabold text-white leading-[0.9] tracking-tighter uppercase font-jetbrainmono lg:text-[8vw]">
+              <h1 className="text-center text-[9vw] sm:text-[6vw] md:text-[3vw] font-extrabold text-white leading-[0.9] tracking-tighter uppercase font-jetbrainmono lg:text-[8vw] appearonscroll">
                 More About Boring Designer
               </h1>
             </div>
@@ -110,7 +113,7 @@ const About = () => {
 
           <div className="flex h-auto min-h-[30vh] mt-1 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh] lg:pt-5">
             <div className="flex h-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] items-center justify-center">
-              <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono">
+              <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono appearonscroll">
                 I'M AN INNOVATIVE DESIGNER AND DIGITAL ARTIST INDIA.MY PASSION
                 FOR MINIMALIST AESTHETICS,ELEGANT TYPOGRAPHY,AND INTUITIVE
                 DESIGN SHINES THROUGH IN MY WORK.

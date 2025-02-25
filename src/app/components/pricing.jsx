@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="min-h-screen mt-[50vh] md:mt-[0vh] md:mb-[20vh] px-[30px] lg:mt-[60vh]">
+    <div id="pricing" className="min-h-screen mt-[50vh] md:mt-[0vh] md:mb-[20vh] px-[30px] lg:mt-[60vh]">
       <div className=" mt-[4vh] sm:mt-4 sm:mb-1 px-[4vw] md:px-[2vw]">
         <hr className="border border-zinc-700" />
       </div>
@@ -15,7 +15,7 @@ const Pricing = () => {
             //pricing
           </p>
           <p className="text-zinc-400 uppercase text-[3vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
-            explore best plans
+            explore plans
           </p>
         </div>
         <div className="flex flex-col md:flex-row mt-20 md:items-center md:justify-between md:gap-[13vw]">

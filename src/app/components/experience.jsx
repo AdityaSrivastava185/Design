@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="h-screen md:mb-[20vh] px-[30px]">
+    <div id="experience" className="h-screen md:mb-[20vh] px-[30px]">
       <div className=" mt-[4vh] sm:mt-4 sm:mb-1 px-[4vw] md:px-[2vw]">
         <hr className="border border-zinc-700" />
       </div>
@@ -20,7 +20,7 @@ const Experience = () => {
         </div>
         <div className="flex flex-col md:flex-row mt-9 md:items-center md:justify-between md:gap-[13vw]">
           <div className="mb-[1vh] mt-[10vh] sm:my-[0vh]">
-            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
+            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase appearonscroll">
               experience
             </p>
           </div>
@@ -48,7 +48,7 @@ const Experience = () => {
           ].map((experience, index) => (
             <div
               key={index}
-              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around lg:pb-10"
+              className="flex flex-col gap-2 sm:gap-3 md:gap-4 md:mb-7 md:flex-row md:items-start md:justify-around lg:pb-10 appearonscroll"
             >
               <div className="hidden sm:block text-white text-[4vw] sm:text-[4vw] md:text-[2vw] font-bold">
                 {experience.number}

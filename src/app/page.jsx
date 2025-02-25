@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 // import Navbar from "./components/navbar";
 import Menu from "./components/menu/menu";
@@ -25,15 +25,15 @@ export default function Home() {
   return (
     <>
       <div className="">
-        {/* <Navbar /> */}
-        <Menu/>
+
+        <Menu />
         <Hero />
         <About />
         <Services />
         <Note />
         <Experience />
         <Pricing />
-        <TechStack/>
+        <TechStack />
         <Footer />
       </div>
     </>

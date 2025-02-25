@@ -10,7 +10,7 @@ export default function Footer() {
       {/* Intro Section */}
       <div className="text-white flex flex-col items-center text-center mt-20">
         <div className="mt-6 md:mt-15 lg:mt-24 md:max-w-[50vw]">
-          <h2 className="text-3xl sm:text-xl md:text-[2vw] font-extrabold md:tracking-tighter md:leading-7 font-jetbrainmono tracking-tighter leading-6">
+          <h2 className="text-3xl sm:text-xl md:text-[2vw] font-extrabold md:tracking-tighter md:leading-7 font-jetbrainmono tracking-tighter leading-6 appearonscroll">
             BASED IN INDIA, I AM AN INNOVATIVE DESIGNER AND DIGITAL ARTIST. MY
             PASSION FOR MINIMALIST AESTHETICS, ELEGANT TYPOGRAPHY, AND INTUITIVE
             DESIGN IS EVIDENT IN MY WORK.
@@ -20,14 +20,14 @@ export default function Footer() {
 
       <div className="flex flex-col md:flex-row mt-20 md:items-center md:justify-between md:gap-[13vw] lg:px-[30px]">
         <div className="mb-[3vh] sm:my-[0vh]">
-          <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
+          <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase appearonscroll">
             Linkedin
           </p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row mt-[-9vh] md:items-center md:justify-between md:gap-[13vw] lg:px-[30px]">
         <div className=" mb-10 sm:my-[0vh]">
-          <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
+          <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase appearonscroll">
            twitter
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Footer() {
 
       {/* Main Branding */}
       <div className="w-full h-auto flex flex-col items-center md:mt-10">
-        <h1 className="text-white text-[10vw] sm:text-[10vw] font-bold uppercase text-center md:leading-20">
+        <h1 className="text-white text-[10vw] sm:text-[10vw] font-bold uppercase text-center md:leading-20 ">
           boringdesigner.
         </h1>
       </div>
