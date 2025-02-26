@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const TechStack = () => {
   return (
@@ -31,7 +32,7 @@ const TechStack = () => {
             </p>
           </div>
         </div>
-        <div className="h-auto w-full md:mt-10 md:pl-[36vw] mt-11">
+        {/* <div className="h-auto w-full md:mt-10 md:pl-[36vw] mt-11">
           {[
             {
               number: "01",
@@ -86,7 +87,123 @@ const TechStack = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
+
+        <section className=" text-white px-6 py-12">
+          {/* <h2 className="text-4xl md:text-5xl font-semibold text-purple-300">
+            Tech Specs
+          </h2>
+          <p className="text-2xl md:text-3xl font-light mt-4">
+            Engineered to run faster-than-light.
+          </p> */}
+
+          {/* <div className="gap-8 mt-12 flex items-center justify-between flex-wrap">
+            {[
+              {
+                number: "01",
+                title: "NextJS/ReactJS",
+                desc: "Frontend development code completely written in Next.js and React.js using Tailwind CSS, ensuring highly responsive, efficient, and scalable web applications.",
+              },
+              {
+                number: "02",
+                title: "Git and GitHub",
+                desc: "Maintaining code versions and making it open-source. GitHub provides a cloud-based platform where you can store, share, and collaborate on code seamlessly.",
+              },
+              {
+                number: "03",
+                title: "Framer",
+                desc: "A powerful web design platform that turns ideas into interactive, production-ready websites. Framer enables designers and developers to create visually stunning sites.",
+              },
+              {
+                number: "04",
+                title: "Figma",
+                desc: "A collaborative design tool that allows teams to create, prototype, and iterate designs with precision. Features include real-time collaboration, vector editing, and design systems.",
+              },
+              {
+                number: "05",
+                title: "ShadCN UI",
+                desc: "A set of beautifully designed, accessible UI components built for modern web applications. Fully open-source and works seamlessly with popular frameworks.",
+              },
+              {
+                number: "06",
+                title: "WebStorm",
+                desc: "A robust JavaScript and TypeScript IDE by JetBrains. It provides advanced coding assistance, debugging, and seamless integration with modern web technologies.",
+              },
+              {
+                number: "07",
+                title: "Visual Studio Code",
+                desc: "A powerful IDE by Microsoft, redefining AI-powered coding with GitHub Copilot for modern web and cloud application development.",
+              },
+            ].map((tech, index) => (
+              <div key={index} className="space-y-6 max-w-[20vw] text-center">
+                <h3 className="text-lg font-semibold">{tech.title}</h3>
+                <p className="text-gray-300">{tech.desc}</p>
+              </div>
+            ))}
+          </div> */}
+          <div className="flex md:flex-row flex-col items-center md:justify-between ">
+          <div className="w-full">
+              <Image
+                src={`/hero-bg.webp`}
+                height={700}
+                width={700}
+                alt="hero image"
+                className="w-full h-full max-h-[500px] md:max-h-[900px] object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-full px-4 sm:px-8 lg:px-16">
+              <div className="space-y-6 sm:space-y-8 md:space-y-10">
+                {[
+                  {
+                    number: "01",
+                    title: "NextJS/ReactJS",
+                    desc: "Frontend development code written in Next.js and React.js using Tailwind CSS, ensuring highly responsive, efficient, and scalable web applications.",
+                  },
+                  {
+                    number: "02",
+                    title: "Git and GitHub",
+                    desc: "Maintaining code versions and making it open-source. GitHub provides a cloud-based platform to store, share, and collaborate on code seamlessly.",
+                  },
+                  {
+                    number: "03",
+                    title: "Framer",
+                    desc: "A powerful web design platform that turns ideas into interactive, production-ready websites. Enables designers and developers to create visually stunning sites.",
+                  },
+                  {
+                    number: "04",
+                    title: "Figma",
+                    desc: "A collaborative design tool for teams to create, prototype, and iterate designs. Features real-time collaboration, vector editing, and design systems.",
+                  },
+                  {
+                    number: "05",
+                    title: "ShadCN UI",
+                    desc: "A beautifully designed, accessible UI component library for modern web applications. Fully open-source and works seamlessly with popular frameworks.",
+                  },
+                ].map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col sm:flex-row items-start justify-between border-dashed border-b border-zinc-700 pb-6 sm:pb-8 md:pb-3"
+                  >
+                    {/* Number */}
+                    <div className="text-white text-lg sm:text-xl font-bold hidden sm:block">
+                      {tech.number}
+                    </div>
+
+                    {/* Content */}
+                    <div className="w-full sm:w-[85%]">
+                      <h2 className="text-white text-lg sm:text-xl  font-semibold uppercase tracking-tight">
+                        {tech.title}
+                      </h2>
+                      <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
+                        {tech.desc}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

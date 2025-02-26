@@ -31,9 +31,9 @@ export default function Home() {
         <About />
         <Services />
         <Note />
-        <Experience />
+        {/* <Experience /> */}
         <Pricing />
-        <TechStack />
+        {/* <TechStack /> */}
         <Footer />
       </div>
     </>

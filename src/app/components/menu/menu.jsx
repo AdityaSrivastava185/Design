@@ -65,12 +65,12 @@ const Menu = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className="menu-container text-white mb-[12vh] md:mb-[17vh] relative" ref={container}>
-      <div className="menu-bar fixed bg-black ">
+    <div className="menu-container text-white mb-[15vh] md:mb-[17vh] relative" ref={container}>
+      <div className="menu-bar fixed bg-[#1D1D1D] px-14 rounded-2xl">
         <div className="menu-logo text-white font-jetbrainmono">
           <Link href="/">BORINGDESIGNER/</Link>
         </div>
-        <div className="menu-open font-jetbrainmono " onClick={toggleMenu}>
+        <div className="menu-open font-jetbrainmono" onClick={toggleMenu}>
           <p className="text-white">Menu</p>
         </div>
       </div>
