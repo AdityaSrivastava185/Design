@@ -40,7 +40,7 @@ const About = () => {
             className=" mb-9 md:mb-0
         w-full sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[50vw] md:mt-0"
           >
-            <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll">
+            <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] xl:leading-[80px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll">
               you think it's boring,think again...:)
             </h1>
           </div>
@@ -73,10 +73,11 @@ const About = () => {
           <div className="bg-[#171717] py-24 sm:py-32 lg:mt-8 rounded-xl">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
               <h2 className="text-center text-base/7 font-semibold text-white">
-              Effortless Mastery
+                Effortless Mastery
               </h2>
               <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-[#E2E2DF] sm:text-5xl">
-              Everything you need to achieve high-impact designs with precision.
+                Everything you need to achieve high-impact designs with
+                precision.
               </p>
               <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
                 <div className="relative lg:row-span-2">
@@ -203,9 +204,9 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex h-auto min-h-[30vh] mt-1 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh] lg:pt-5">
+            <div className="flex h-auto min-h-[30vh] mt-1 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh] lg:pt-10">
               <div className="flex h-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] items-center justify-center">
-                <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono appearonscroll">
+                <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono appearonscroll xl:leading-10">
                   I'M AN INNOVATIVE DESIGNER AND DIGITAL ARTIST INDIA.MY PASSION
                   FOR MINIMALIST AESTHETICS,ELEGANT TYPOGRAPHY,AND INTUITIVE
                   DESIGN SHINES THROUGH IN MY WORK.
@@ -213,7 +214,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex h-auto min-h-[30vh] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-20vh] md:mt-[-30vh] lg:mt-[-35vh] mt-[-8vh] mb-20 ">
+            <div className="flex h-auto min-h-[30vh] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-20vh] md:mt-[-30vh] lg:mt-[-30vh] mt-[-8vh] mb-20 ">
               <div className="flex h-auto w-[85vw] sm:w-[70vw] md:w-[60vw] lg:w-[60vw] items-center justify-center">
                 <h1 className="text-center text-[4vw] sm:text-[3vw] md:text-[1.3vw] font-semibold text-[#808080]  tracking-tighter leading-4 lg:text-xl">
                   Unleash a creative force that transforms every pixel into a
