@@ -40,14 +40,14 @@ const About = () => {
             className=" mb-9 md:mb-0
         w-full sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[50vw] md:mt-0"
           >
-            <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] xl:leading-[80px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll">
+            <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] xl:leading-[100px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll text-center md:text-start pt-4">
               you think it's boring,think again...:)
             </h1>
           </div>
 
-          <div className="h-auto max-w-[50vw] mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
+          <div className="h-auto max-w-full mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
             <div className="flex h-auto w-full flex-col items-end justify-end">
-              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono appearonscroll">
+              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono appearonscroll text-center md:text-end">
                 Place where underestimation reveals the beast you never saw
                 coming
               </p>
