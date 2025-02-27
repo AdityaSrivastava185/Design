@@ -66,7 +66,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container text-white mb-[15vh] md:mb-[17vh] relative" ref={container}>
-      <div className="menu-bar fixed bg-[#1D1D1D] px-14 rounded-2xl xl:mt-5">
+      <div className="menu-bar fixed bg-[#121212] px-14">
         <div className="menu-logo text-white font-jetbrainmono">
           <Link href="/">BORINGDESIGNER/</Link>
         </div>

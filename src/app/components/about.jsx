@@ -40,17 +40,25 @@ const About = () => {
             className=" mb-9 md:mb-0
         w-full sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[50vw] md:mt-0"
           >
-            <h1 className=" text-white uppercase text-[8vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] xl:leading-[100px] tracking-tighter leading-8 font-jetbrainmono font-extrabold appearonscroll text-center md:text-start pt-4">
+            <h1 className=" text-white uppercase text-[10vw] sm:text-[6vw] md:text-[6vw] lg:text-[6vw] sm:leading-[1.1] md:leading-7 lg:leading-[70px] xl:leading-[100px] tracking-tighter font-jetbrainmono font-extrabold appearonscroll text-center md:text-start pt-4 leading-[50px]">
               you think it's boring,think again...:)
             </h1>
           </div>
 
           <div className="h-auto max-w-full mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
             <div className="flex h-auto w-full flex-col items-end justify-end">
-              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono appearonscroll text-center md:text-end">
+              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg  tracking-tighter font-jetbrainmono appearonscroll text-center leading-8">
                 Place where underestimation reveals the beast you never saw
                 coming
               </p>
+            </div>
+            <div className="mt-4 md:mt-10 flex justify-center">
+              <button
+                type="button"
+                className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-lg px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              >
+                Get the best membership plans
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +66,7 @@ const About = () => {
           <hr className="border border-zinc-700" />
         </div>
         <div className="about h-auto w-full px-[4vw] md:px-[40px]">
-          <div className="flex flex-row items-center justify-between gap-2 text-center">
+          <div className="flex flex-row items-center justify-between gap-2 text-center mb-10 md:mt-0">
             <p className="text-white uppercase text-[3vw] sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.1vw] font-semibold tracking-tight">
               01
             </p>
@@ -204,7 +212,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex h-auto min-h-[30vh] mt-1 sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh] lg:pt-10">
+            <div className="flex h-auto min-h-[30vh] mt-[-4.5rem] sm:min-h-[40vh] md:min-h-[50vh] w-full items-center justify-center sm:mt-[-15vh] md:mt-[-25vh] lg:pt-10">
               <div className="flex h-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] items-center justify-center">
                 <h1 className="text-center text-[5vw] sm:text-[3vw] md:text-[1.6vw] font-extrabold text-white leading-6 tracking-tighter font-jetbrainmono appearonscroll xl:leading-10">
                   I'M AN INNOVATIVE DESIGNER AND DIGITAL ARTIST INDIA.MY PASSION

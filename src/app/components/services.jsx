@@ -1,32 +1,6 @@
 import React from "react";
+import Image from "next/image";
 
-const services = [
-  {
-    number: "01",
-    title: "Open Source Development",
-    desc: "We specialize in making your website completely open-source, ensuring transparency, accessibility, and community-driven improvements. By hosting your code on GitHub, we enable seamless collaboration, version control, and continuous enhancements from developers worldwide.",
-  },
-  {
-    number: "02",
-    title: "Complete Website Design",
-    desc: "We create stunning responsive websites with an emphasis on modern UI/UX design, ensuring your brand stands out. Our expertise in Figma and Framer enables rapid prototyping and precise design execution, delivering seamless digital experiences.",
-  },
-  {
-    number: "03",
-    title: "UI/UX Design & Optimization",
-    desc: "We go beyond aesthetics—our UI/UX design services focus on user psychology, intuitive navigation, and high engagement. By leveraging behavioral analytics and A/B testing, we ensure your website drives conversions and delivers an exceptional user experience.",
-  },
-  {
-    number: "04",
-    title: "Wireframing & Prototyping",
-    desc: "Before diving into development, we create detailed wireframes and prototypes to visualize the entire user journey. Our structured approach ensures error-free development, cost reduction, and an efficient design-to-code transition.",
-  },
-  {
-    number: "05",
-    title: "Prototyping & Full Website Development",
-    desc: "We build high-performance, SEO-friendly websites with the latest technologies. From front-end development (React, Next.js, TailwindCSS)",
-  },
-];
 
 const Services = () => {
   return (

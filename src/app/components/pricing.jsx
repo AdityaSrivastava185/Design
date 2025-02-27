@@ -64,14 +64,14 @@ const Pricing = () => {
         </div>
         <div className="flex flex-col md:flex-row mt-20 md:items-center md:justify-between md:gap-[13vw]">
           <div className="mb-[1vh] mt-[10vh] sm:my-[0vh]">
-            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[12vw] font-jetbrainmono tracking-tighter uppercase">
+            <p className="font-bold text-white md:text-[7vw] md:tracking-tighter text-[18vw] font-jetbrainmono tracking-tighter uppercase text-center">
               pricing
             </p>
           </div>
-          <div className="h-auto max-w-[50vw] mb-20 sm:max-w-[60vw] md:max-w-[25vw]">
-            <div className="flex h-auto w-full flex-col items-end justify-end">
-              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono">
-                big or small,we have plans for everyone
+          <div className="h-auto w-full mb-20 sm:max-w-[60vw] md:max-w-[25vw] flex flex-col items-center justify-center text-center">
+            <div className="flex h-auto w-full flex-col items-center sm:items-end justify-end">
+              <p className="font-semibold text-white uppercase text-[5vw] sm:text-[3vw] md:text-[16px] lg:text-lg leading-5 tracking-tighter font-jetbrainmono text-center">
+                big or small, we have plans for everyone
               </p>
             </div>
           </div>
@@ -81,8 +81,7 @@ const Pricing = () => {
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
-        >
-        </div>
+        ></div>
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base/7 font-semibold text-[#E2E2DF]">Pricing</h2>
           <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
