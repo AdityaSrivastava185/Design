@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero relative w-full h-auto max-w-[1480px] flex flex-col items-center justify-start flex-nowrap overflow-hidden">
         <div className="hero-container relative w-full h-auto flex flex-col items-center justify-center flex-nowrap pt-[10px] pb-[50px] overflow-visible">
           <div className="hero-text relative w-full h-auto flex flex-col items-center justify-center flex-nowrap gap-[8px] px-[10px] overflow-hidden">
-            <h1 className="w-full h-auto overflow-hidden font-extrabold text-white text-[11vw]  tracking-tighter leading-[80%] text-center uppercase pb-2 font-jetbrainmono ">
+            <h1 className="w-full h-auto overflow-hidden font-extrabold text-white text-[11vw]  tracking-tighter leading-[80%] text-center uppercase pb-2 font-jetbrainmono">
               BORINGDESIGNER
             </h1>
           </div>

@@ -103,13 +103,13 @@ const Services = () => {
           <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
             <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
               <div className="relative lg:row-span-2">
-                <div className="absolute inset-px rounded-lg bg-[#E2E2DF] lg:rounded-l-[2rem]"></div>
-                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                <div className="absolute inset-px rounded-lg bg-[#121212] lg:rounded-l-[2rem]"></div>
+                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)] border-2 border-dotted border-[#E2E2E2DF]">
                   <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                    <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                    <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2E2DF] max-lg:text-center">
                       Open Source Development
                     </p>
-                    <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                    <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
                       We specialize in making your website completely
                       open-source, ensuring transparency, accessibility, and
                       community-driven improvements. By hosting your code on
@@ -130,13 +130,13 @@ const Services = () => {
                 <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5 lg:rounded-l-[2rem]"></div>
               </div>
               <div className="relative max-lg:row-start-1">
-                <div className="absolute inset-px rounded-lg bg-[#E2E2DF] max-lg:rounded-t-[2rem]"></div>
-                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                <div className="absolute inset-px rounded-lg bg-[#121212] max-lg:rounded-t-[2rem]"></div>
+                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] border-2 border-dotted border-[#E2E2E2DF]">
                   <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                    <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                    <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2E2DF] max-lg:text-center">
                       Complete Website Design and Development
                     </p>
-                    <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                    <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
                       We create stunning responsive websites with an emphasis on
                       modern UI/UX design, ensuring your brand stands out. Our
                       expertise in Figma and Framer enables rapid prototyping
@@ -155,13 +155,13 @@ const Services = () => {
                 <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5 max-lg:rounded-t-[2rem]"></div>
               </div>
               <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
-                <div className="absolute inset-px rounded-lg bg-[#E2E2DF]"></div>
-                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                <div className="absolute inset-px rounded-lg bg-[#121212]"></div>
+                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] border-2 border-dotted border-[#E2E2E2DF]">
                   <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                    <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                    <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2E2DF] max-lg:text-center">
                       UI/UX Design & Optimization
                     </p>
-                    <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                    <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
                       From web design to frontend development, we merge
                       aesthetics with functionality. Whether it's a sleek
                       landing page or a fully responsive interface, we craft
@@ -180,13 +180,13 @@ const Services = () => {
                 <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5"></div>
               </div>
               <div className="relative lg:row-span-2">
-                <div className="absolute inset-px rounded-lg bg-[#E2E2DF] max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
-                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                <div className="absolute inset-px rounded-lg bg-[#121212] max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] border-2 border-dotted border-[#E2E2E2DF] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                   <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                    <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                    <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2E2DF] max-lg:text-center">
                       Wireframing & Prototyping
                     </p>
-                    <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                    <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
                       Before diving into development, we create detailed
                       wireframes and prototypes to visualize the entire user
                       journey. Our structured approach ensures error-free

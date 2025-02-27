@@ -70,18 +70,18 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-[#171717] py-24 sm:py-32">
+          <div className="bg-[#171717] py-24 sm:py-32 lg:mt-8 rounded-xl">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
               <h2 className="text-center text-base/7 font-semibold text-white">
-                Deploy faster
+              Effortless Mastery
               </h2>
               <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-[#E2E2DF] sm:text-5xl">
-                Everything you need to deploy your app
+              Everything you need to achieve high-impact designs with precision.
               </p>
               <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
                 <div className="relative lg:row-span-2">
                   <div className="absolute inset-px rounded-lg bg-[#121212] lg:rounded-l-[2rem]"></div>
-                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)] border-2 border-dotted border-[#E2E2DF]">
                     <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                       <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2DF] max-lg:text-center">
                         MoodBoards
@@ -108,7 +108,7 @@ const About = () => {
                 </div>
                 <div className="relative max-lg:row-start-1">
                   <div className="absolute inset-px rounded-lg bg-[#121212] max-lg:rounded-t-[2rem]"></div>
-                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] border-2 border-dotted border-[#E2E2DF]">
                     <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                       <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2DF] max-lg:text-center">
                         Wireframing and Prototype
@@ -132,7 +132,7 @@ const About = () => {
                 </div>
                 <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
                   <div className="absolute inset-px rounded-lg bg-[#121212]"></div>
-                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] border-2 border-dotted border-[#E2E2DF]">
                     <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                       <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2DF] max-lg:text-center">
                         Design and Development
@@ -157,7 +157,7 @@ const About = () => {
                 </div>
                 <div className="relative lg:row-span-2">
                   <div className="absolute inset-px rounded-lg bg-[#121212] max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
-                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                  <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)] border-2 border-dotted border-[#E2E2DF]">
                     <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                       <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2DF] max-lg:text-center">
                         Reviews and Delivery
