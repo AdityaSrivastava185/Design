@@ -34,7 +34,7 @@ const About = () => {
       <div>
         <div
           id="about"
-          className="flex flex-col md:items-center md:justify-between mx-7 md:mx-5 md:flex-row lg:mt-[-20vh]"
+          className="flex flex-col md:items-center md:justify-between mx-7 md:mx-5 md:flex-row lg:mt-20"
         >
           <div
             className=" mb-9 md:mb-0
@@ -70,7 +70,6 @@ const About = () => {
             </p>
           </div>
 
-
           <div className="bg-[#171717] py-24 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
               <h2 className="text-center text-base/7 font-semibold text-white">
@@ -88,7 +87,11 @@ const About = () => {
                         MoodBoards
                       </p>
                       <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
-                      Every great design starts with a vision. We curate a moodboard filled with colors, typography, and design elements that set the tone for your brand's identity. This helps us align creativity with strategy before we dive into execution.
+                        Every great design starts with a vision. We curate a
+                        moodboard filled with colors, typography, and design
+                        elements that set the tone for your brand's identity.
+                        This helps us align creativity with strategy before we
+                        dive into execution.
                       </p>
                     </div>
                     <div className="@container relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
@@ -108,10 +111,13 @@ const About = () => {
                   <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                     <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                       <p className="mt-2 text-lg font-medium tracking-tight text-[#E2E2DF] max-lg:text-center">
-                      Wireframing and Prototype
+                        Wireframing and Prototype
                       </p>
                       <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
-                      Once the vision is clear, we sketch out the blueprint. Our wireframing process ensures a seamless user journey, while Figma prototyping brings your ideas to life with interactive previews.
+                        Once the vision is clear, we sketch out the blueprint.
+                        Our wireframing process ensures a seamless user journey,
+                        while Figma prototyping brings your ideas to life with
+                        interactive previews.
                       </p>
                     </div>
                     <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
@@ -132,7 +138,11 @@ const About = () => {
                         Design and Development
                       </p>
                       <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
-                      From web design to frontend development, we merge aesthetics with functionality. Whether it's a sleek landing page or a fully responsive interface, we craft experiences that are both visually stunning and highly intuitive.
+                        From web design to frontend development, we merge
+                        aesthetics with functionality. Whether it's a sleek
+                        landing page or a fully responsive interface, we craft
+                        experiences that are both visually stunning and highly
+                        intuitive.
                       </p>
                     </div>
                     <div className="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
@@ -153,10 +163,14 @@ const About = () => {
                         Reviews and Delivery
                       </p>
                       <p className="mt-2 max-w-lg text-sm/6 text-white max-lg:text-center">
-                      To ensure alignment, we conclude each phase by presenting our work to you, gathering your suggestions and reviews, and implementing any necessary changes.We refine, test, and perfect every pixel. Our meticulous attention to detail ensures that your brand's digital presence is impactful, immersive, and unforgettable
+                        To ensure alignment, we conclude each phase by
+                        presenting our work to you, gathering your suggestions
+                        and reviews, and implementing any necessary changes.We
+                        refine, test, and perfect every pixel. Our meticulous
+                        attention to detail ensures that your brand's digital
+                        presence is impactful, immersive, and unforgettable
                       </p>
                     </div>
-                   
                   </div>
                   <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
                 </div>
